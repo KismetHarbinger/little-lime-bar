@@ -4,16 +4,134 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Little Lime Bar</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Little Lime Bar</h1>
-  <p>Thoughtfully crafted drinks for every kind of celebration.</p>
-  <button>View Packages</button>
-  <button>Get a Quote</button>
+
+  <header class="nav">
+    <div class="logo">Little Lime Bar</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-btn">Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="script">Fresh, fun & beautifully served</p>
+      <h1>Mobile Beverage Experiences for Every Celebration</h1>
+      <p>
+        Elegant bartending, mocktail bars, lemonade stations, coffee service,
+        and custom drink experiences for weddings, private parties, kids’ events,
+        showers, and celebrations.
+      </p>
+      <div class="hero-buttons">
+        <a href="#packages" class="btn primary">View Packages</a>
+        <a href="#contact" class="btn secondary">Get a Quote</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80" alt="Fresh citrus drinks">
+    </div>
+  </section>
+
+  <section id="services" class="section intro">
+    <p class="script">What we do</p>
+    <h2>A boutique beverage bar for grown-up parties and little celebrations.</h2>
+    <p>
+      Little Lime Bar brings a fresh, elevated drink experience to your event —
+      from professional bartending to playful daytime mocktails.
+    </p>
+  </section>
+
+  <section id="packages" class="section packages">
+    <div class="package">
+      <span>01</span>
+      <h3>Bartender Only</h3>
+      <p>You provide the alcohol, ice, mixers, cups, garnish and bar setup. We bring the tools, service and expertise.</p>
+      <ul>
+        <li>Professional bartender</li>
+        <li>Smart Serve certified</li>
+        <li>Bar tools included</li>
+        <li>Setup, service & cleanup</li>
+      </ul>
+      <strong>Starting at $350</strong>
+    </div>
+
+    <div class="package featured">
+      <span>02</span>
+      <h3>Little Lime Kids Bar</h3>
+      <p>Fun, colourful mocktails and lemonades for birthdays, showers, brunches and daytime events.</p>
+      <ul>
+        <li>Homemade mocktails</li>
+        <li>Lemonade bar</li>
+        <li>Fresh garnishes</li>
+        <li>Custom drink menu</li>
+      </ul>
+      <strong>Starting at $275</strong>
+    </div>
+
+    <div class="package">
+      <span>03</span>
+      <h3>Signature Bar</h3>
+      <p>Elevated cocktails or mocktails with fresh citrus, syrups, garnishes and a custom menu.</p>
+      <ul>
+        <li>Signature drinks</li>
+        <li>Fresh ingredients</li>
+        <li>Menu planning</li>
+        <li>Beautiful presentation</li>
+      </ul>
+      <strong>Custom Quote</strong>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div>
+      <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=900&q=80" alt="Elegant outdoor celebration">
+    </div>
+    <div>
+      <p class="script">Owner-operated</p>
+      <h2>Nearly 20 years of hospitality experience, served with style.</h2>
+      <p>
+        Little Lime Bar is a boutique mobile beverage service created for people
+        who want their event to feel thoughtful, beautiful and effortless.
+      </p>
+      <p>
+        From weddings and private parties to children’s birthdays and daytime celebrations,
+        every detail is designed to feel fresh, relaxed and memorable.
+      </p>
+    </div>
+  </section>
+
+  <section class="section gallery">
+    <p class="script">A little taste</p>
+    <h2>Fresh, playful, elegant.</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=700&q=80" alt="">
+      <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=700&q=80" alt="">
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="script">Let’s celebrate</p>
+    <h2>Ready to build your perfect beverage bar?</h2>
+    <p>Tell us about your event and we’ll create a custom quote.</p>
+    <a href="mailto:kristyna.andel@gmail.com" class="btn primary">Request a Quote</a>
+  </section>
+
+  <footer>
+    <p>Little Lime Bar © 2026</p>
+  </footer>
+
 </body>
 </html>
